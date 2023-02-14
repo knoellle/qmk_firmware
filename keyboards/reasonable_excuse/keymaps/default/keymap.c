@@ -46,7 +46,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [L_CDH] = LAYOUT_split_3x5_3(
         KC_Q,    KC_W,    KC_F,    KC_P,    KC_B,      KC_J,    KC_L,    KC_U,    KC_Y,    KC_SCLN,
         KC_A,    HMC_R,   HMC_S,   HMC_T,   HMC_G,     HMC_M,   HMC_N,   HMC_E,   HMC_I,   KC_O,
-        KC_Z,    KC_X,    KC_C,    KC_D,    KC_V,      KC_K,    KC_H,    KC_COMM, KC_DOT,  DF(L_GME),
+        KC_Z,    KC_X,    KC_C,    KC_D,    KC_V,      KC_K,    KC_H,    KC_COMM, KC_DOT,  DF(L_QWE),
                    LGUI_T(KC_ESC),  KC_ENT, KC_BSPC,  KC_SPC,  MO(L_NAV), MO(L_SYM)
     ),
     [L_QWE] = LAYOUT_split_3x5_3(
@@ -70,7 +70,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [L_GME] = LAYOUT_split_3x5_3(
         KC_T,   KC_Q,    KC_W,    KC_E,    KC_R,       KC_6,    KC_7,    KC_8,    KC_9,    KC_0,
         KC_LSFT,KC_A,    KC_S,    KC_D,    KC_F,       KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, _______,
-        KC_LCTL,KC_Z,    KC_X,    KC_C,    KC_V,       QK_BOOT, _______, _______, _______, DF(L_QWE),
+        KC_LCTL,KC_Z,    KC_X,    KC_C,    KC_V,       QK_BOOT, _______, _______, _______, DF(L_CDH),
                           KC_X, KC_SPC, KC_Z,   _______, _______, _______
     ),
 };
