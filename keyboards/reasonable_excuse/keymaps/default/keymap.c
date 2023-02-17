@@ -6,15 +6,15 @@
 #define L_NAV 3
 #define L_GME 4
 
-#define HMC_R LGUI_T(KC_R)
-#define HMC_S LALT_T(KC_S)
-#define HMC_T LSFT_T(KC_T)
-#define HMC_G LCTL_T(KC_G)
+#define HMC_A LSFT_T(KC_A)
+#define HMC_R LCTL_T(KC_R)
+#define HMC_S LGUI_T(KC_S)
+#define HMC_T LALT_T(KC_T)
 
-#define HMC_M LCTL_T(KC_M)
-#define HMC_N LSFT_T(KC_N)
-#define HMC_E LALT_T(KC_E)
-#define HMC_I LGUI_T(KC_I)
+#define HMC_N LALT_T(KC_N)
+#define HMC_E LGUI_T(KC_E)
+#define HMC_I LCTL_T(KC_I)
+#define HMC_O LSFT_T(KC_O)
 
 #define HMQ_S LGUI_T(KC_S)
 #define HMQ_D LALT_T(KC_D)
@@ -48,7 +48,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [L_CDH] = LAYOUT_split_3x5_3(
         KC_Q,    KC_W,    KC_F,    KC_P,    KC_B,      KC_J,    KC_L,    KC_U,    KC_Y,    KC_SCLN,
-        KC_A,    HMC_R,   HMC_S,   HMC_T,   HMC_G,     HMC_M,   HMC_N,   HMC_E,   HMC_I,   KC_O,
+        HMC_A,   HMC_R,   HMC_S,   HMC_T,   KC_G,      KC_M,    HMC_N,   HMC_E,   HMC_I,   HMC_O,
         KC_Z,    KC_X,    KC_C,    KC_D,    KC_V,      KC_K,    KC_H,    KC_COMM, KC_DOT,  DF(L_QWE),
                    KC_ESC, LGUI_T(KC_ENT), KC_BSPC,  KC_SPC,  TT(L_NAV), TT(L_SYM)
     ),
