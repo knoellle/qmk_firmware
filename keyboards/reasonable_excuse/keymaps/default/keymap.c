@@ -11,10 +11,10 @@
 #define HMC_S LGUI_T(KC_S)
 #define HMC_T LALT_T(KC_T)
 
-#define HMC_N LALT_T(KC_N)
+#define HMC_N RALT_T(KC_N)
 #define HMC_E LGUI_T(KC_E)
-#define HMC_I LCTL_T(KC_I)
-#define HMC_O LSFT_T(KC_O)
+#define HMC_I RCTL_T(KC_I)
+#define HMC_O RSFT_T(KC_O)
 
 #define HMQ_S LGUI_T(KC_S)
 #define HMQ_D LALT_T(KC_D)
