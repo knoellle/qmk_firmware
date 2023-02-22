@@ -1,0 +1,2 @@
+COMB(colon,     KC_COLN,    HMC_N, HMC_E)     /*  :    */
+SUBS(ROT_ROBOT,   "robot",    HMC_R, HMC_O, HMC_T) // SUBS uses SEND_STRING to output the given string.
