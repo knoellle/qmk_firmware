@@ -4,8 +4,10 @@ COMB(paren_left,      KC_LPRN,    KC_L, KC_U)                // (
 COMB(paren_right,     KC_RPRN,    KC_U, KC_Y)                // )
 SUBS(paren_pair,      "()",       KC_L, KC_U, KC_Y)          // ()
 
-COMB(bracket_left,      KC_LBRC,    KC_W, KC_F)                // (
-COMB(bracket_right,     KC_RBRC,    KC_F, KC_P)                // )
-SUBS(bracket_pair,      "[]",       KC_W, KC_F, KC_P)          // ()
+COMB(bracket_left,    KC_LBRC,    KC_W, KC_F)                // (
+COMB(bracket_right,   KC_RBRC,    KC_F, KC_P)                // )
+SUBS(bracket_pair,    "[]",       KC_W, KC_F, KC_P)          // ()
 
-SUBS(ROT_ROBOT,       "robot",    HMC_R, HMC_O, HMC_T)       // SUBS uses SEND_STRING to output the given string.
+SUBS(rot_robot,       "robot",    HMC_R, HMC_O, HMC_T)       // SUBS uses SEND_STRING to output the given string.
+
+TOGG(ctri_backspace,  L_MKT,      KC_M, HMC_T)               // toggles ctrl+backspace mode
