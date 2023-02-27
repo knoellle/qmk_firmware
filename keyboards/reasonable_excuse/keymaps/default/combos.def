@@ -1,4 +1,6 @@
 COMB(colon,           KC_COLN,    HMC_N, HMC_E)              // :
+COMB(equals,          KC_EQL,     HMC_N, HMC_I)              // =
+COMB(double_quote,    KC_DQUO,    HMC_I, HMC_O)              // "
 
 COMB(paren_left,      KC_LPRN,    KC_L, KC_U)                // (
 COMB(paren_right,     KC_RPRN,    KC_U, KC_Y)                // )
