@@ -17,6 +17,8 @@
 #define HMC_I RCTL_T(KC_I)
 #define HMC_O RSFT_T(KC_O)
 
+#define HMC_TAB LSFT_T(KC_TAB)
+
 #define HMQ_S LGUI_T(KC_S)
 #define HMQ_D LALT_T(KC_D)
 #define HMQ_F LSFT_T(KC_F)
@@ -87,7 +89,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
     [L_NAV] = LAYOUT_split_3x5_3(
         G(KC_1), G(KC_2), G(KC_3), G(KC_4), G(KC_5),   G(KC_6), G(KC_7), G(KC_8), G(KC_9), G(KC_0),
-        KC_TAB,  G_GRV,   SC_TAB,  C_TAB,   _______,   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, _______,
+        HMC_TAB, G_GRV,   SC_TAB,  C_TAB,   _______,   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, _______,
         _______, _______, _______, _______, _______,   QK_BOOT, KC_PGDN, KC_PGUP, _______, _______,
                           _______, _______, _______,   _______, _______, _______
     ),
